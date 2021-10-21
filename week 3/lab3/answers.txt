@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: it got the lowest time on sorted values
+
+sort2 uses: merge sort
+
+How do you know?: it got the lowest time on Random and reversed values and the second lowest on sorted
+
+sort3 uses: selection sort
+
+How do you know?: (by exclusion) and it got nearly the same amount of time on random50000, reversed50000 and sorted50000

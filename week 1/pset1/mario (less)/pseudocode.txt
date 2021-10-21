@@ -1,0 +1,5 @@
+prompt the user for input
+if input is less than 1 or more than 8
+    go back to step 1
+else
+    draw the pyramid by iterating through the number of hashes

@@ -1,0 +1,19 @@
+table
+{
+    border: 5px solid red;
+}
+
+tr
+{
+    height: 50px;
+}
+
+td
+{
+    background-color: green;
+    color: white;
+    font-size: 24pt;
+    font-family: georgia;
+    text-align: center;
+    width: 50px;
+}

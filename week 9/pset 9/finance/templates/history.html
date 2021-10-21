@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table style="width: 100%">
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Date</th>
+        </tr>
+        {% for share in shares %}
+            <tr>
+                <th> {{ share['symbol'] }} </th>
+                <th> {{ share['shares'] }} </th>
+                <th> {{ usd(share['price']) }} </th>
+                <th> {{ share['date'] }} </th>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
